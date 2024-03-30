@@ -21,11 +21,21 @@
 
 # print(teskari_tartib([1,21,48,21,48,56,764]))
 #----------------------------------------------------------------------------
+# 3 - masala
 
+# def buble_sort(tartibsiz_list):
+#     n = len(tartibsiz_list)
+
+#     for i in range(n):
+#         for j in range(0, n-1):
+#             if tartibsiz_list[j] < tartibsiz_list[j+1]:
+#                 tartibsiz_list[j+1], tartibsiz_list[j] = tartibsiz_list[j], tartibsiz_list[j+1] 
+#     return tartibsiz_list
+# print(buble_sort([2,4,5,6,1]))
 
 
 #---------------------------------------------------------------------
-# 3 - masala
+# 4 - masala
 
 # count = 0
 # file = open("txt.txt", "r")
@@ -36,6 +46,8 @@
 
 # print(count)
 # file.close()
+
+#------------------------------------------------------------------------
 
 
 
