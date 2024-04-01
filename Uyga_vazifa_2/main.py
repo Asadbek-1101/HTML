@@ -48,7 +48,16 @@
 # file.close()
 
 #------------------------------------------------------------------------
+# 5 - masala
 
+def f(x):
+    if len(x)<=140 and x[0] == '#':    
+        a = x.title()
+        b = a.replace(' ', '')
+        return b
+    else:
+        return False
+print(f('# Hello world salom dunyo'))
 
 
 
